@@ -1,0 +1,104 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+header{
+	background-image: url(C:\Users\Microsoft\Documents\Ratish\image1 (8).jpg);
+  width: 100% ;
+  height: 100vh ;
+  position: relative;
+}
+nav{
+  width: 100%
+  height: 100px ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 100px ;
+  font-family: 'signika', sans-serif;
+}
+.logo{
+  font-size: 50px;
+  letter-spacing: 5px ;
+  color: #222f3e ;
+}
+.menu a{
+  text-decoration: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  color: yellow ;
+}
+.menu a:last-child{
+  background: #de3031 ;
+  border-radius: 8px ;
+  letter-spacing: 2px ;
+  color: white ;
+}
+.h-text{
+  max-width: 500px;
+  position: absolute;
+  top: 30% ;
+	left: 10% ;
+}
+.h-text h1{
+  font-size: 2em ;
+  color: #222f3e ;
+  font-family: 'crimson text',serif;
+}
+.h-text p{
+  font-size: 20px;
+  margin-bottom: 30px ;
+}
+.h-text a{
+  text-decoration: none;
+  background: #01a3a4 ;
+  color: white ;
+  font-size: 20px ;
+  padding: 10px 20px ;
+  font-family: 'bitter',serif;
+  border-radius: 8px ;
+}
+#contact{
+  background: transparent ;
+  color: #01a3a4 ;
+  box-shadow: 2px 0px 0px grey;
+}
+.icon{
+	position: fixed;
+	top: 50% ;
+	left: 0;
+	transform: translateY(-50%);
+	display: flex;
+	flex-direction: column;
+}
+.icon i{
+	color: white ;
+	padding: 10px ;
+	font-size: 20px;
+	margin: 5px 0px;
+	background: #01a3a4 ;
+	}
+	.icon i:hover{
+		background: transparent ;
+		transition: 0.4s ;
+		border: 1px solid black ;
+		color: black ;
+	}
+	.box{
+		width: 60% ;
+		height: 70% ;
+		position: absolute;
+		top: 0 ;
+		right: 0 ;
+		background: rgba(255, 234, 167, 0.7);
+		z-index: -2 ;
+	}
+	#suraj{
+		width: 550px ;
+		height: 100% ;
+		position: absolute;
+		right: 10% ;
+		top: 0;
+		z-index: -1 ;
+	}
